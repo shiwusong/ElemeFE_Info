@@ -87,6 +87,8 @@ function require(...) {
 
 所以这个问题其实本身其实是值得商榷的, 可能是典型的 [`X-Y Problem`](http://coolshell.cn/articles/10804.html), 不过聊起来确实是可以暴露水平.
 
+`笔记：`  
+[Node.js：模块查找，引用及缓存机制](http://justcoding.iteye.com/blog/2310727)
 ## 上下文
 
 如果你已经了解 ①② 那么你也应该了解, 对于 Node.js 而言, 正常情况下只有一个上下文, 甚至于内置的很多方面例如 `require` 的实现只是在启动的时候运行了[内置的函数](https://github.com/nodejs/node/tree/master/lib). 
@@ -137,3 +139,5 @@ lerna：一个用户管理多个包模块的工具。
 left-pad事件
 
 greenkeeper 等
+`笔记：`  
+[使用yarn代替npm作为node.js的模块管理器](https://www.jianshu.com/p/bfe96f89da0e)

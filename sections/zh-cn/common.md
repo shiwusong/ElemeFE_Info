@@ -44,6 +44,7 @@ JavaScript 的类型判断其实是个挺折磨人的话题, 不然也不会有 
 2. [闭包](https://www.cnblogs.com/qieguo/p/5457040.html) 相关资料太多了，随便找了一篇。
 3. require函数相当于一个闭包。
 4. 《你不知道的 JavaScript》这本书太棒了，果断入手了。
+5. [恐怖的this指向](/sections/about/this.md)
 ## 引用传递
 
 > <a name="q-value"></a> js 中什么类型是引用传递, 什么类型是值传递? 如何将值类型的变量以引用的方式传递?
